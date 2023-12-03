@@ -1,0 +1,46 @@
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto/Roboto-Thin.ttf");
+}
+
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Roboto;
+
+}
+.header{
+    display: flex;
+    flex-direction:row;
+}
+img {
+    margin-left: 15%;
+    margin-top: 10px;
+}
+img:hover {
+ opacity: 23%;
+ cursor:pointer;
+
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.first{
+    width: 100px;
+    height: 200px;
+    background-color: chartreuse;
+    text-align: center;
+    padding-top: 200px;
+    margin-top: 234px;
+}
+.second{
+    width: 100px;
+    height: 300px;
+    background-color: rgb(20, 50,34 );
+}
